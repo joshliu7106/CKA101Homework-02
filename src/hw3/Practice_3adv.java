@@ -11,9 +11,11 @@ public class Practice_3adv {
 			lottery[i] = i;
 		}
 
-		System.out.println("討厭的數字");
+		System.out.println("阿文討厭的數字");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
+		
+		System.out.println("你的號碼是");
 		
 		for(int i = 1; i <= 6; i++) {
 			int b = (int)(Math.random()*49) + 1;
